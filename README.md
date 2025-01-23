@@ -67,16 +67,17 @@ In contrast, February recorded the lowest number of posts, possibly because user
 
 Photos and Videos are the best performing contents on social Buzz.
 Photos lead with a performance of 51%, slightly outperforming video contents at 49%. This shows that while users might enjoy video contents, photos often deliver message more effectively and resonate faster with audiences than any other content type.
-The “Heart” reaction is the most frequently used reaction on Social Buzz, indicating that majority of content resonates deeply with users’ emotions and feelings. Additionally, many post elicit the “scared” reaction, showing that some post create shock and fear. Additionally, “Hate” is also one of the least used reaction, followed closely by “interested”, which indicates that these types of content evoke fewer strong responses from users. 
+
 
 ## Recommendation
 
 Social Buzz should enhance its algorithm to promote contents published in the month of December as users tend to post more content during holiday and festive period.
+
 More attention should be allocated to animal and science content category especial photo and video contents, with addition of science and other categories so that users can have varieties of content to consume. For example, you could run a campaign with content focused on this category or work with healthy eating brands to promote content.
 
 ## Summary
 
-I solved this task and found the top 5 most popular categories as asked, but we also went one step further.  We discovered that animals and science are the two most popular content categories, suggesting that users relate more with "real-life" and "factual" content. We also found out that while users might enjoy video contents, photos often deliver message more effectively and resonate faster with audiences than any other content type. This could be an indication to show the types of people that are using your platform, and you could use this insight to boost engagement even further. As much as this analysis communicated better insight, we are happy to take it to the next stage and we have the skills within Accenture to help you realize these kinds of insights in production and other sectors across your organization and in real-time. We would love to help you with this.
+I solved this task and found the top 5 most popular categories as asked, but we also went one step further.  I discovered that animals and science are the two most popular content categories, suggesting that users relate more with "real-life" and "exploratory" content. We also found out that while users might enjoy video contents, photos often deliver message more effectively and resonate faster with audiences than any other content type. This could be an indication to show the types of people that are using your platform, and you could use this insight to boost engagement even further.
 
 
 
