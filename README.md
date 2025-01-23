@@ -9,6 +9,7 @@ This project aims to provide insights into the content performance of a social m
 + Forage
 
 ## Datasets  
+- <a href = "https://github.com/brightboy373/Content-Analysis/blob/main/Content.csv">Content Table</a>
   
 ## Tool(s)
 
@@ -23,12 +24,14 @@ This project aims to provide insights into the content performance of a social m
 
 ### Data Cleaning
 - Ensuring Consistency in Data Types: I validated that each column contained only a single datatype, ensuring uniformity and accuracy across the dataset.
+- I used the filter icon to identify blank spaces and inconsistencies in rows. I deleted the null values from the datasets.
 - Removing Unnecessary Characters: I used the "Replace" function to eliminate unwanted characters, such as quotation marks, that could interfere with the analysis.
 - Dropping Irrelevant Columns: I identified and removed columns that were not essential for the analysis, such as the UserID column, to enhance focus and reduce noise.
 - Renaming Columns for Clarity: To improve the dataset’s readability and interpretability:
   - I renamed Categories and types in the Content Table to Content Categories and Content type.
   - I renamed Scores in the Reaction Type Table to Reaction Scores.
-  - I renamed type from Reactions Table to Reaction Types
+  - I renamed type from Reactions Table to Reaction Types.
+   
 
 ### Data Modeling:
 Once the data was clean, I modeled the datasets by linking the 3 tables with VLOOKUP. Using SUMIF, I calculated the total reactions for each content category to uncover engagement trends. I copied all the datasets in different sheets in one workbook, this is to make it easier for me to reference and merge them in one sheet. By doing these I will have all the columns I need for my analysis and visualization. Using Vlookup to merge the table.
