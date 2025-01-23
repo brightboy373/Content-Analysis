@@ -44,7 +44,7 @@ I needed Reaction scores from Reaction Table and Content categories from Content
 
 On my fact table (Reactions Table), I will create a new column for Content category and Reaction Scores, then use Vlookup on the column created to drag the content category from content table and reaction scores on reactiontype table.
 
-So I created a blank column by highlighting and right clicking on the another column, I created a column for content category in reaction table in the same position it is indexed at content table and same for reaction scores. Created a column for content category and reaction scores in reactions table.
+So I created a blank column by highlighting and right clicking on the another column, I created a column for content category in reactionS table in the same position it is indexed at content table and same for reaction scores. Created a column for content category and reaction scores in reactions table.
 Using Vlookup to merge the table, here is the code: =VLOOKUP(A2,Content!A1:C1001,3, false).
 The A2 was the lookup value from reactions table, Content!A1:C1001 (The table array covered the contentId to content_Category which is indexed 3) , false means return exact value only. I merged all the columns needed for the analysis in reaction sheet and I named them merged table
 
