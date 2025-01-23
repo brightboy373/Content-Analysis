@@ -36,17 +36,35 @@ This project aims to provide insights into the content performance of a social m
    
 
 ### Data Modeling:
-Once the data was clean, I modeled the datasets by linking the 3 tables with VLOOKUP. I copied all the datasets in different sheets in one workbook, this is to make it easier for me to reference and merge them in one sheet. By doing these I will have all the columns I need for my analysis and visualization. Using Vlookup to merge the table.
+After cleaning the datasets, I modeled the data by linking the three tables (`Content Table`, `Reactions Table`, and `ReactionTypes Table`) using **Excel VLOOKUP**. This step consolidated the data into a single table for analysis and visualization.
 
-To link these datasets in Excel I have to understand the relationships between one datasets and other. Reaction_Type is a primary key in ReactionTypes Table but a foreign key in Reactions Table, that’s a relationship and possible link merge both tables. The ContentID is a primary key in Content Table and also a secondary key in Reactions Table.
+#### Purpose of Each Table
+- **Content Table**: Contains `ContentID`, `Content Categories`, and `Content Type`.
+- **Reactions Table**: Stores reactions with fields like `ContentID`, `Reaction_Types`, `Reaction_Scores`, and `Date`.
+- **ReactionTypes Table**: Maps `Reaction_Types` to `Reaction Scores`.
 
-I needed Reaction scores from Reactions Table then Content categories and content type from Content table, so that in one table I can have ContentID, Content categories, content type, Reaction_Types, Reaction scores, and Date in one sheet, so that I can have all the rows required for my analysis.
+#### Linking the Tables
+##### Understanding Relationships
+- The `Reaction_Types` field is a primary key in the `ReactionTypes Table` but a foreign key in the `Reactions Table`. 
+- The `ContentID` field is a primary key in the `Content Table` and a foreign key in the `Reactions Table`.
 
-On my fact table (Reactions Table), I will create a new column for Content category, content type, and Reaction Scores, then use Vlookup on the column created to drag the content category from content table and reaction scores on reactiontype table.
+##### Creating a Merged Table
+To prepare a **fact table** for analysis, I needed the following fields in one sheet: 
+- `ContentID`
+- `Content Categories`
+- `Content Type`
+- `Reaction_Types`
+- `Reaction Scores`
+- `Date`
 
-So I created a blank column by highlighting and right clicking on the next column, I created a column for content category, content type, and reaction scores in the reactiontypes table. 
-I Used Vlookup to merge the table by dragging the rows from content categories, content type, and reaction scores from content table and reactiontypes table to reactions table, This enabled me to have all the columns i needed in reactions table which i would use for my analysis. Here is the function i used and the arguments: =VLOOKUP(A2,Content!A1:C1001,3, false).
-The A2 was the lookup value from reactions table, Content!A1:C1001 (The table array covered from contentId to content_Category which is indexed 3 in the content table), false means return exact value only. I merged all the columns needed for the analysis in reaction sheet and I named them merged table.
+I followed these steps:
+1. **Add Blank Columns**: In the `Reactions Table`, I created blank columns for `Content Categories`, `Content Type`, and `Reaction Scores`.
+2. **Use VLOOKUP**: I used the **VLOOKUP** function to populate these new columns by fetching data from the `Content Table` and `ReactionTypes Table`.
+
+Example VLOOKUP function:
+```plaintext
+=VLOOKUP(A2,Content!A1:C1001,3,FALSE)
+
 
 
 
