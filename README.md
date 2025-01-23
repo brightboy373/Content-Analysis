@@ -31,7 +31,10 @@ This project aims to provide insights into the content performance of a social m
 Once the data was clean, I modeled the datasets by linking the 3 tables with VLOOKUP. Using SUMIF, I calculated the total reactions for each content category to uncover engagement trends. I copied all the datasets in different sheets in one workbook, this is to make it easier for me to reference and merge them in one sheet. By doing these I will have all the columns I need for my analysis and visualization. Using Vlookup to merge the table, here is the code: =VLOOKUP(A2,Content!A1:C1001,3, false).
 
 ### Data aggregation and Visualization: Data Visualization:
-I created powerful visualizations using Pivot Tables and Pivot Charts, ensuring the charts were intuitive and used colour encoding to highlight the highest-performing values for clarity and emphasis.
+I created powerful visualizations using Pivot Tables and Pivot Charts, ensuring the charts were readable and used colour encoding to highlight the highest-performing values for clarity and emphasis. I also created KPIs to show the month with the highest reaction, total reaction to a particular content category, and the total content category.
+
+<img width="747" alt="Capture-charts" src="https://github.com/user-attachments/assets/ce610bae-2014-4db3-9a9d-85d2d1cb60dd" />
+
 
 
 ## Insights
