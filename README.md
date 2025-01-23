@@ -66,13 +66,10 @@ Example VLOOKUP function:
 =VLOOKUP(A2,Content!A1:C1001,3,FALSE)
 
 
-
-
-### Data aggregation and Visualization: Data Visualization:
+## Data aggregation and Visualization: Data Visualization:
 I created powerful visualizations using Pivot Tables and Pivot Charts, ensuring the charts were readable and used colour encoding to highlight the highest-performing values for clarity and emphasis. I also created KPIs to show the month with the highest reaction, content category with most reaction, and unique content categories.
 
 <img width="747" alt="Capture-charts" src="https://github.com/user-attachments/assets/ce610bae-2014-4db3-9a9d-85d2d1cb60dd" />
-
 
 
 ## Insights
@@ -86,15 +83,12 @@ In contrast, February recorded the lowest number of posts, possibly because user
 Photos and Videos are the best performing contents on social Buzz.
 Photos lead with a performance of 51%, slightly outperforming video contents at 49%. This shows that while users might enjoy video contents, photos often deliver message more effectively and resonate faster with audiences than any other content type.
 
-
 ## Recommendation
-
 Social Buzz should enhance its algorithm to promote contents published in the month of December as users tend to post more content during holiday and festive period.
 
 More attention should be allocated to animal and science content category especial photo and video contents, with addition of science and other categories so that users can have varieties of content to consume. For example, you could run a campaign with content focused on this category or work with healthy eating brands to promote content.
 
 ## Summary
-
 I solved this task and found the top 5 most popular categories as asked, but we also went one step further.  I discovered that animals and science are the two most popular content categories, suggesting that users relate more with "real-life" and "exploratory" content. We also found out that while users might enjoy video contents, photos often deliver message more effectively and resonate faster with audiences than any other content type. This could be an indication to show the types of people that are using your platform, and you could use this insight to boost engagement even further.
 
 
