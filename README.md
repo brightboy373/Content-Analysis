@@ -62,7 +62,6 @@ I followed these steps:
 2. **Use VLOOKUP**: I used the **VLOOKUP** function to populate these new columns by fetching data from the `Content Table` and `ReactionTypes Table`.
 
 Example VLOOKUP function:
-```plaintext
 =VLOOKUP(A2,Content!A1:C1001,3,FALSE)
 
 
