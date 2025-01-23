@@ -30,9 +30,13 @@ This project aims to provide insights into the content performance of a social m
 
 ### Data Modeling:
 Once the data was clean, I modeled the datasets by linking the 3 tables with VLOOKUP. Using SUMIF, I calculated the total reactions for each content category to uncover engagement trends. I copied all the datasets in different sheets in one workbook, this is to make it easier for me to reference and merge them in one sheet. By doing these I will have all the columns I need for my analysis and visualization. Using Vlookup to merge the table.
+
 To link these datasets in Excel I have to understand the relationships between one datasets and other. The kind of relationship between them. Reaction_Type is a primary key in ReactionTypes Table but a foreign key in Reaction Table, that’s a relationship and possible link merge both tables. The ContentID is a primary key in Content Table and also a secondary key in Reaction Table.
+
 I need Reaction scores from Reaction Table and Content categories from Content table, so in one table I want to have ContentID, Content categories, Reaction_Types, Reaction scores, and Date in one sheet so that I can have all the rows required for my analysis.
+
 On my fact table (Reaction Table), I will create a new column for Content category and Reaction Scores, then use Vlookup on the column created to drag the content category from content table and reaction scores on reactiontype table.
+
 So I created a blank column by highlighting and right clicking on the another column, I created a column for content category in reaction table in the same position it is indexed at content table and same for reaction scores. Created a column for content category and reaction scores in reaction table.
 Using Vlookup to merge the table, here is the code: =VLOOKUP(A2,Content!A1:C1001,3, false).
 The A2 was the lookup value from reaction table, Content!A1:C1001 (The table array covered the contentId to content_Category which is indexed 3) , false means return exact value only. I merged all the columns needed for the analysis in reaction sheet and I named them merged table
