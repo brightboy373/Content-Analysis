@@ -7,9 +7,9 @@
 + [Tools](#tools)
 + [Question(s) For Analysis](#question(s)-for-analysis)
 + [Methods](#methods)
-[Insights](#insights)
-[Recommendation](#recommendation)
-[Conclusion](#conclusion)
++ [Insights](#insights)
++ [Recommendation](#recommendation)
++ [Conclusion](#conclusion)
 
 ## Project Overview
 
