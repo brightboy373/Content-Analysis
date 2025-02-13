@@ -1,11 +1,12 @@
 # Social Buzz's Content Performance Analysis
 # Table of Contents
-[Projects](#projects)
-[Data Source](#data-source)
-[Datasets](#datasets)
-[Tools](#tools)
-[Question(s) For Analysis](#question(s)-for-analysis)
-[Methods](#methods)
+
++ [Projects](#projects)
++ [Data Source](#data-source)
++ [Datasets](#datasets)
++ [Tools](#tools)
++ [Question(s) For Analysis](#question(s)-for-analysis)
++ [Methods](#methods)
 [Insights](#insights)
 [Recommendation](#recommendation)
 [Conclusion](#conclusion)
