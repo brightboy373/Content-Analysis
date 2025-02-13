@@ -1,10 +1,20 @@
 # Social Buzz's Content Performance Analysis
+# Table of Contents
+[Projects](#projects)
+[Data Source](#data-source)
+[Datasets](#datasets)
+[Tools](#tools)
+[Question(s) For Analysis](#question(s)-for-analysis)
+[Methods](#methods)
+[Insights](#insights)
+[Recommendation](#recommendation)
+[Conclusion](#conclusion)
 
 ## Project Overview
 
 This project aims to provide insights into the content performance of a social media platform called Social Buzz. By Analyzing various aspects of the content data, we seek to answer some questions, identify the most popular content categories among users, make-data driven recommendations, and gain a deeper understanding of their content performances.
 
-## Data Sources
+## Data Source
 
 + Forage
 
@@ -22,7 +32,7 @@ This project aims to provide insights into the content performance of a social m
 + What are Top 2 Best-performing Content type?
 + What is the month with the highest content published?
 
-## STEPS TAKEN:
+## Methods:
 
 ### Data Cleaning
 - Ensuring Consistency in Data Types: I validated that each column contained only a single datatype, ensuring uniformity and accuracy across the dataset.
@@ -65,7 +75,7 @@ Example VLOOKUP function:
 =VLOOKUP(A2,Content!A1:C1001,3,FALSE)
 
 
-## Data aggregation and Visualization: Data Visualization:
+### Data aggregation and Visualization: Data Visualization:
 I created powerful visualizations using Pivot Tables and Pivot Charts, ensuring the charts were readable and used colour encoding to highlight the highest-performing values for clarity and emphasis. I also created KPIs to show the month with the highest reaction, content category with most reaction, and unique content categories.
 
 <img width="747" alt="Capture-charts" src="https://github.com/user-attachments/assets/ce610bae-2014-4db3-9a9d-85d2d1cb60dd" />
@@ -87,7 +97,7 @@ Social Buzz should enhance its algorithm to promote contents published in the mo
 
 More attention should be allocated to animal and science content category especial photo and video contents, with addition of science and other categories so that users can have varieties of content to consume. For example, you could run a campaign with content focused on this category or work with healthy eating brands to promote content.
 
-## Summary
+## Conclusion
 I solved this task and found the top 5 most popular categories as asked, but we also went one step further.  I discovered that animals and science are the two most popular content categories, suggesting that users relate more with "real-life" and "exploratory" content. We also found out that while users might enjoy video contents, photos often deliver message more effectively and resonate faster with audiences than any other content type. This could be an indication to show the types of people that are using your platform, and you could use this insight to boost engagement even further.
 
 
