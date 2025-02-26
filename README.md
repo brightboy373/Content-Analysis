@@ -23,6 +23,8 @@ This project aims to provide insights into the content performance of a social m
 - <a href = "https://github.com/brightboy373/Content-Analysis/blob/main/Content.csv">Content Table</a>
 - <a href = "https://github.com/brightboy373/Content-Analysis/blob/main/ReactionTypes.csv">ReactionTypes</a>
 - <a href = "https://github.com/brightboy373/Content-Analysis/blob/main/Reactions.csv">Reactions</a>
+
+**Disclaimer**: This is not a real life dataset.
   
 ## Tool(s)
 
